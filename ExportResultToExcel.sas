@@ -13,6 +13,6 @@ proc sql;
 		from table1
 		where col1>100;
 
-	libname myfile.clear
+	libname myfile clear
 run;
 quit;
